@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: #877f7d;
 }
 
 *{
@@ -18,7 +18,7 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: black;
+    background-color: #363636;
     color: white;
 }
 
@@ -39,8 +39,9 @@ nav ul li{
 
 .container{
     min-height: 72vh;
-    background-color: black;
-    color: white;
+    background-color: #363636;
+    color: black;
+    text-align: center;
    font-family: 'Varela Round', sans-serif;
    display: flex;
    margin: 23px auto;
@@ -48,13 +49,16 @@ nav ul li{
    border-radius: 12px;
    padding: 34px;
    background-image: url('bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: right;
 }
 
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 130px;
-    background-color: black;
+    height: 100px;
+    background-color: #363636;
     color: white;
     display: flex;
     justify-content: center;
@@ -75,7 +79,7 @@ nav ul li{
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 40px;
 }
 
 .songItem{
